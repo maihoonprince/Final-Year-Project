@@ -1,0 +1,69 @@
+.page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page h1 {
+  font-size: 2.5rem;
+  color: var(--text-color); /* Adapts to theme */
+  margin-bottom: 1rem;
+}
+
+.page h2 {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page h3 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.page p {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.topic,
+.question {
+  margin-bottom: 2rem;
+}
+
+pre {
+  background: var(--button-bg-color);
+  color: var(--text-color);
+  border-left: 3px solid var(--navbar-bg-color);
+  padding: 1rem;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .page h1 {
+    font-size: 2rem;
+  }
+
+  .page h2 {
+    font-size: 1.8rem;
+  }
+
+  .page h3 {
+    font-size: 1.4rem;
+  }
+}
