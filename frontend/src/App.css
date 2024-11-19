@@ -1,0 +1,22 @@
+/* App container */
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Content wrapper for dynamic pages */
+  .app-content {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  /* Footer styles (optional if you add a footer) */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #282c34;
+    color: white;
+  }
+  
