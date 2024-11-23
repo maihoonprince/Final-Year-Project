@@ -1,0 +1,105 @@
+/* Sidebar Container */
+.sidebar-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e4e7eb;
+  padding: 25px 15px;
+}
+
+/* Menu Icon */
+.menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* New Chat Button */
+.new-chat {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #6b7280; /* Gray-500 */
+  cursor: pointer;
+  background-color: #d1d5db; /* Gray-300 */
+  border-radius: 9999px; /* Full rounded */
+  transition: background-color 0.3s;
+}
+
+.new-chat:hover {
+  background-color: #cbd5e1; /* Slightly lighter gray */
+}
+
+.new-chat-icon {
+  font-size: 2rem;
+}
+
+/* Recent Prompts Section */
+.recent-section {
+  margin-top: 28px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.recent-title {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #374151; /* Slate-700 */
+}
+
+.recent-prompt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px 8px 15px;
+  border-radius: 50px;
+  color: #374151; /* Slate-700 */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.recent-prompt:hover {
+  background-color: #d1d5db; /* Gray-300 */
+}
+
+.recent-prompt-icon {
+  font-size: 2rem;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px 8px 15px;
+  border-radius: 50px;
+  color: #374151; /* Slate-700 */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-link:hover {
+  background-color: #d1d5db; /* Gray-300 */
+}
+
+.footer-link-icon {
+  font-size: 2rem;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

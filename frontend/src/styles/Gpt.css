@@ -1,0 +1,30 @@
+/* App Container */
+.appContainer {
+    display: flex;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Sidebar Section */
+  .sidebar {
+    width: 20%; /* Adjust as needed */
+    min-width: 250px; /* Prevent sidebar from shrinking too much */
+    background-color: #e4e7eb; /* Match Sidebar background */
+  }
+  
+  /* Main Content Section */
+  .mainContent {
+    flex: 1; /* Occupy remaining space */
+    background-color: #f9fafb; /* Subtle background for content area */
+    padding: 20px; /* Adjust for spacing */
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

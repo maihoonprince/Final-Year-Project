@@ -18,6 +18,10 @@ const SubNavbar = () => {
         <li>
           <Link to="/home/oops">OOPs</Link>
         </li>
+
+        <li>
+          <Link to="/gpt">GPT</Link>
+        </li>
       </ul>
     </div>
   );
