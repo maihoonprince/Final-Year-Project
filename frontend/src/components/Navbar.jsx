@@ -50,7 +50,9 @@ const Navbar = () => {
           <Link to="/code">Code Here</Link>
         </li>
         <li>
-          <Link to="/community">Community</Link>
+          <a href="https://comrade-application.onrender.com/" target="_blank" rel="noopener noreferrer">
+            ComraDe
+          </a>
         </li>
         <li>
           <button onClick={handleLogout} className="navbar__logout">
